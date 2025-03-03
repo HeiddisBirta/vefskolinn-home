@@ -42,7 +42,7 @@ const CalendarComponent = () => {
       image: Bell,
     },
     {
-        day: "Sat", 
+        day: "Sat",
         date: "15.",
         content: "12:00  Weekend Pizza",
         image: Bell,
@@ -51,7 +51,7 @@ const CalendarComponent = () => {
 
 console.log(Number(events[0].date))
     return (
-    
+
         <ContainerFrame>
             <StyledCalendar onChange={onChange} value={value}/>
                 <EventWrapper>
@@ -59,20 +59,20 @@ console.log(Number(events[0].date))
                         {events.map((event)=>{
                             const isToDay=Number(event.date)===(value as Date).getDate()
                              return(
-                                <EventListContainer $inputColor={(isToDay&&'rgba(196, 171, 176, 0.25)') as string}>
+                                <EventListContainer key={event.date} $inputColor={(isToDay&&'rgba(196, 171, 176, 0.25)') as string}>
                                     <EventColumn>
                                         <EventDay>{event.day}</EventDay>
                                             <EventDate>{event.date}</EventDate>
                                                 <div style={{borderLeft: '1px solid #C4ABB0', height: '30px',}} ></div>
                                             <EventContent>{event.content}</EventContent>
-                                    </EventColumn>  
-                                        <EventIcon 
-                                        $inputColor={(isToDay&&'var(--100-Burgundy, #7C2D38);') as string}> 
-                                            <BellIcon src={isToDay?DarkBell:event.image} 
-                                                $iconColor={(isToDay&&' #fffff;') as string} alt="icon"  width="24" height="24" /> 
+                                    </EventColumn>
+                                        <EventIcon
+                                        $inputColor={(isToDay&&'var(--100-Burgundy, #7C2D38);') as string}>
+                                            <BellIcon src={isToDay?DarkBell:event.image}
+                                                $iconColor={(isToDay&&' #fffff;') as string} alt="icon"  width="24" height="24" />
                                         </EventIcon>
 
-                                </EventListContainer>        
+                                </EventListContainer>
                                     )
                                     })}
                  </EventWrapper>

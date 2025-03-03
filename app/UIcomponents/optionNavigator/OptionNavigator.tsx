@@ -5,7 +5,7 @@ import {
   SelectedRing,
   ArrowContainer,
 } from "./style";
-import { Arrow } from "assets/GuidesWidgetphotos/Icons";
+import { Arrow } from "assets/Icons";
 
 // Does not currently support keyboard navigation or pagination
 
