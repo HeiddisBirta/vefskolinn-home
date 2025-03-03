@@ -21,7 +21,7 @@ import { extendGuides } from "utils/guideUtils";
     const userId ='67b48a1159ab390636d322d9'
 
     const fetchedGuides =(await getGuides(userId)) || [];
-    if(fetchedGuides.length<1) throw new Error("No guides found")
+    if(fetchedGuides.length<1) throw new Error("No guides found.")
     const extendedGuides = await extendGuides(
     JSON.parse(JSON.stringify(fetchedGuides))
   );
