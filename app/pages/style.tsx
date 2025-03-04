@@ -14,13 +14,13 @@ export const MainContainer = styled.div`
   padding: 40px;
   padding-top: 143px;
   @media (max-width: 768px) {
-    grid-template-columns: 1fr; /* Stack the columns */
+    grid-template-columns: 1fr;
     grid-template-areas:
       "sidebar"
-      "main"; /* Adjust grid layout to stack vertically */
-    gap: 20px; /* Reduce gap between items */
-    padding: 20px; /* Adjust padding for smaller screens */
-    padding-top: 100px; /* Adjust padding-top for smaller screens */
+      "main";
+    gap: 20px;
+    padding: 20px;
+    padding-top: 100px;
   }
 `;
 
