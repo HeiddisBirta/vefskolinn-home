@@ -1,5 +1,5 @@
 'use client'
-import Groups from "components/groups/groupsLayout";
+import Groups from "../../components/groups/groupsLayout";
 
 const HallOfFame = () => {
   return (<div>

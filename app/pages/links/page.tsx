@@ -1,5 +1,5 @@
 'use client'
-import Links from "components/links/linksLayout";
+import Links from "../../components/links/linksLayout";
 
 const HallOfFame = () => {
   return (<div>
