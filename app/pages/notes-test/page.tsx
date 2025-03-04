@@ -1,11 +1,8 @@
 "use client";
-import Notes from "../../../app/components/notes/noteslayout";
+import Notes from "../../components/notes/noteslayout";
 
 const NotesTest = () => {
-  return (
-    <Notes></Notes>
-
-  );
-}
+  return <Notes></Notes>;
+};
 
 export default NotesTest;

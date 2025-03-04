@@ -16,12 +16,12 @@ import arrow from "../../../public/arrow.svg";
 
 import { ImageIcon, ArrowIcon } from "./style";
 
-import homewhite from "../sidebar/icons/redIcons/homehover.svg";
-import guideswhite from "../sidebar/icons/redIcons/guideshover.svg";
-import calendarwhite from "../sidebar/icons/redIcons/calendarhover.svg";
-import peoplewhite from "../sidebar/icons/redIcons/peoplehover.svg";
-import resourceswhite from "../sidebar/icons/redIcons/resourceshover.svg";
-import emailwhite from "../sidebar/icons/redIcons/emailhover.svg";
+import homewhite from "./icons/redIcons/homehover.svg";
+import guideswhite from "./icons/redIcons/guideshover.svg";
+import calendarwhite from "./icons/redIcons/calendarhover.svg";
+import peoplewhite from "./icons/redIcons/peoplehover.svg";
+import resourceswhite from "./icons/redIcons/resourceshover.svg";
+import emailwhite from "./icons/redIcons/emailhover.svg";
 
 import colorize from "../../../public/colorize.png";
 
