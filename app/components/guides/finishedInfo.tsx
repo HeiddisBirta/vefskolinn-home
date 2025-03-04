@@ -2,7 +2,7 @@ import { ProgressContainer, ProgressImage, ProgressImage2 } from "./style";
 import Progressbar1 from "../../../app/assets/progressbar1.svg";
 import Progressbar2 from "../../../app/assets/progressbar2.svg";
 import Progressbar3 from "../../../app/assets/progressbar3.svg";
-import Progressbar4 from "../../../app/assets/progressbar4.svg";
+import Progressbar4 from "../../assets/assets/progressbar4.svg";
 import Progressbar5 from "../../../app/assets/progressbar5.svg";
 import Progressbar6 from "../../../app/assets/progressbar6.svg";
 
